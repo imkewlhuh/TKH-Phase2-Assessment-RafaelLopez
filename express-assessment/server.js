@@ -1,5 +1,5 @@
 import express from "express";
-import userRouter from "./routes/user";
+import userRouter from "./routes/user.js";
 
 export default function createServer() {
   const app = express();

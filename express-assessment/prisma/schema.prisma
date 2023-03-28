@@ -11,9 +11,9 @@ datasource db {
 }
 
 model User {
-  id Int @unique @default(autoincrement())
+  id        Int     @unique @default(autoincrement())
   firstName String
-  lastName String
-  isAdmin Boolean @default(false)
-  isActive Boolean @default(true)
+  lastName  String
+  isAdmin   Boolean @default(false)
+  isActive  Boolean @default(true)
 }
